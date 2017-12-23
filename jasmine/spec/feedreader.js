@@ -58,7 +58,7 @@ $(function() {
         });
 
          it('loadFeed is called', function() {
-            let entriesNum = $('.entry').length;
+            let entriesNum = $('.feed .entry').length;
             console.log(entriesNum);
             expect(entriesNum).toBeGreaterThan(0);
              });
